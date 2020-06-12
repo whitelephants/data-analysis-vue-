@@ -1,24 +1,28 @@
-# codemix-vanilla-vue
+# 数据分析平台
 
-Template for project creation of Vue inside CodeMix
+vue + element-ui + echarts的模式制作的数据分析前端页面
 
-# Contents
 
-This template project is just an example Hello World that guide you through the use of Vue to build a very simple web application that display the Hello World!!! Greeting.
-
-This example has been started with the vue-cli and webpack-simple
-
-# Project setup
+# 安装项目
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+# 安装依赖
+
+```
+npm i element-ui -S
+npm i v-charts echarts -S
+npm install echarts --save
+npm install --save el-table-infinite-scroll
+```
+
+### 编译和热重载以进行开发
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### 编译并压缩以提供生产包
 ```
 npm run build
 ```
