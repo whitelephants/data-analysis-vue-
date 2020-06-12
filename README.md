@@ -8,7 +8,7 @@ vue + element-ui + echarts的模式制作的数据分析前端页面
 npm install
 ```
 
-# 安装依赖
+### 安装依赖
 
 ```
 npm i element-ui -S
@@ -25,14 +25,4 @@ npm run serve
 ### 编译并压缩以提供生产包
 ```
 npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
 ```
